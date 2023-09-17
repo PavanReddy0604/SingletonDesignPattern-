@@ -60,7 +60,7 @@ class DBConnection4 {
 
 	}
 
-	public static synchronized DBConnection4 getInstance() {
+	public static  DBConnection4 getInstance() {
 		if (dbConnection == null) {
 			synchronized (DBConnection4.class) {
 				dbConnection = new DBConnection4();
